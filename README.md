@@ -1,2 +1,2 @@
 # gb-python-team
-модули: func logger ui
+модули: main func logger ui

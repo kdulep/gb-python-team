@@ -1,11 +1,20 @@
-def add(P, Q):    
-    return P + Q   
+import from logger_info info
 
-def subtract(P, Q):   
-   return P - Q   
+def add(P, Q):
+    info("add")
+    return P + Q
 
-def multiply(P, Q):   
-   return P * Q   
 
-def divide(P, Q):   
-   return P / Q    
+def subtract(P, Q):
+    info("substract")
+    return P - Q
+
+
+def multiply(P, Q):
+    info("multiply")
+    return P * Q
+
+
+def divide(P, Q):
+    info("multiply")
+    return P / Q
